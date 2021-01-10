@@ -1,0 +1,88 @@
+body{
+    background-color: #F1F6F8;
+    height: 100%;
+    width: 100%;
+}
+
+.signin{
+    background: rgba(10, 68, 126, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 5%;
+    height: 400px;
+    margin-left: 180x;
+    
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]{
+    border: none;
+    width: 190px;
+    background: white;
+    color: rgb(253, 241, 72);
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: black;
+}
+h2{
+    color: white;
+    
+}
+a{
+    color: rgb(253, 241, 72);
+    text-decoration: blink;
+}
+a:hover{
+    color: skyblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
+  .form-control small {
+    visibility: hidden;
+    color: red;
+
+}
+.form-control.error input{
+    border-color: red;
+}
+.form-control.succes input{
+    border-color: rgb(139, 248, 139);
+}
+.form-control.error small{
+visibility: visible;
+color:red;    
+}
+.form-control.succes small{
+    visibility: hidden;
+        
+    }
